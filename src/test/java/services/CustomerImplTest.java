@@ -82,7 +82,7 @@ class CustomerImplTest {
         //Given
         HashMap<String, User> customerList = new HashMap<>();
         User testCustomer = new User( "Akorede" ,  "12345678912" ,  "akorede@gmail.com" , "12345" , "09055589964" );
-        customerList.put("enwere@gmail.com" , testCustomer);
+        customerList.put("akorede@gmail.com" , testCustomer);
         testCustomer.setLoggedIn(true);
         //When
         var expected = "insufficient Balance";
